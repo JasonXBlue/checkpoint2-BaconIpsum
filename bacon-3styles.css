@@ -1,0 +1,116 @@
+html {
+  min-height: 100%;
+}
+body {
+  background-color: 2acdbf;
+  min-height: 100%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 70px repeat(4, 1fr);
+  column-gap: 0px;
+  row-gap: 0px;
+  min-height: 100%;
+  grid-template-areas:
+    "header header"
+    "main main1"
+    "article article1"
+    "footer footer"
+    "footer footer";
+}
+
+header {
+  grid-area: header;
+  background: transparent;
+  display: flex;
+  justify-content: space-evenly;
+}
+main {
+  grid-area: main;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto auto;
+  margin-bottom: 5px;
+}
+main1 {
+  grid-area: main1;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto auto;
+  margin-bottom: 5px;
+}
+article {
+  grid-area: article;
+  border: solid 4px 2acdbf;
+}
+.article1 {
+  grid-area: article1;
+  border: solid 4px 2acdbf;
+}
+p {
+  margin-left: 40px;
+  margin-right: 40px;
+  color: EEF3EC;
+}
+
+footer {
+  grid-area: footer;
+  background-color: transparent;
+}
+
+.box1 {
+  background-color: black;
+  margin-top: 0px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border: double 8px #cd2a38;
+}
+
+h3 {
+  font-family: "Cookie", cursive;
+  color: EEF3EC;
+}
+.fa-home {
+  color: #cd2a38;
+  font-size: 48px;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: 3;
+}
+
+.fa-facebook-square {
+  color: #cd2a38;
+  font-size: 48px;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: 3;
+}
+
+.fa-instagram {
+  color: #cd2a38;
+  font-size: 48px;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: 3;
+}
+
+.fa-address-card {
+  color: #cd2a38;
+  font-size: 48px;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: 3;
+}
+
+h6 {
+  font-size: 10px;
+  margin-top: 0;
+  text-align: center;
+}
+
+.fa-bacon {
+  color: #cd2a38;
+  font-size: 48px;
+}
